@@ -1,0 +1,588 @@
+<<<<<<< HEAD
+2022-03-07 20:59:22,474 - flush -INFO - URL verified successfully
+2022-03-07 20:59:22,828 - flush -INFO - Browser closed
+2022-03-07 20:59:32,705 - flush -INFO - Title verified successfully
+2022-03-07 20:59:32,923 - flush -INFO - Browser closed
+2022-03-07 20:59:42,680 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 20:59:42,923 - flush -INFO - Browser closed
+2022-03-07 20:59:56,820 - flush -INFO - All banners swiped successfully
+2022-03-07 20:59:57,047 - flush -INFO - Browser closed
+2022-03-07 21:00:14,645 - flush -INFO - Browser closed
+2022-03-07 21:00:29,091 - flush -INFO - Browser closed
+2022-03-07 21:00:39,996 - flush -INFO - language changed to second langauge successfully
+2022-03-07 21:00:40,230 - flush -INFO - Browser closed
+2022-03-07 21:00:50,400 - flush -INFO - language changed to third langauge successfully
+2022-03-07 21:00:50,645 - flush -INFO - Browser closed
+2022-03-07 21:01:01,305 - flush -INFO - language changed to fourth langauge successfully
+2022-03-07 21:01:01,543 - flush -INFO - Browser closed
+2022-03-07 21:01:27,178 - flush -INFO - Browser closed
+2022-03-07 21:01:39,075 - flush -INFO - URL launched
+2022-03-07 21:01:39,373 - flush -INFO - entered valid username
+2022-03-07 21:01:39,470 - flush -INFO - entered valid password
+2022-03-07 21:01:39,561 - flush -INFO - clicked on Play Now
+2022-03-07 21:01:46,271 - flush -INFO - Login test passed
+2022-03-07 21:01:46,635 - flush -INFO - Browser closed
+2022-03-07 21:01:55,725 - flush -INFO - URL launched
+2022-03-07 21:01:56,059 - flush -INFO - entered valid username
+2022-03-07 21:01:56,152 - flush -INFO - entered invalid password
+2022-03-07 21:01:56,245 - flush -INFO - clicked on Play Now
+2022-03-07 21:01:58,451 - flush -INFO - Login test failed
+2022-03-07 21:01:58,695 - flush -INFO - Browser closed
+2022-03-07 21:02:15,189 - flush -INFO - URL launched
+2022-03-07 21:02:15,512 - flush -INFO - entered Invalid username
+2022-03-07 21:02:15,648 - flush -INFO - entered valid password
+2022-03-07 21:02:15,760 - flush -INFO - clicked on Play Now
+2022-03-07 21:02:16,833 - flush -INFO - Login test failed
+2022-03-07 21:02:17,065 - flush -INFO - Browser closed
+2022-03-07 21:02:33,483 - flush -INFO - URL launched
+2022-03-07 21:02:33,803 - flush -INFO - entered invalid username
+2022-03-07 21:02:33,895 - flush -INFO - entered invalid password
+2022-03-07 21:02:33,983 - flush -INFO - clicked on Play Now
+2022-03-07 21:02:35,060 - flush -INFO - Login test failed
+2022-03-07 21:02:35,306 - flush -INFO - Browser closed
+2022-03-07 21:10:26,842 - flush -INFO - URL verified successfully
+2022-03-07 21:10:27,279 - flush -INFO - Browser closed
+2022-03-07 21:10:40,215 - flush -INFO - Title verified successfully
+2022-03-07 21:10:40,438 - flush -INFO - Browser closed
+2022-03-07 21:10:57,967 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 21:10:58,283 - flush -INFO - Browser closed
+2022-03-07 21:11:16,079 - flush -INFO - All banners swiped successfully
+2022-03-07 21:11:16,308 - flush -INFO - Browser closed
+2022-03-07 21:12:32,143 - flush -INFO - URL verified successfully
+2022-03-07 21:12:32,529 - flush -INFO - Browser closed
+2022-03-07 21:17:26,067 - flush -INFO - URL verified successfully
+2022-03-07 21:17:26,465 - flush -INFO - Browser closed
+2022-03-07 21:17:38,016 - flush -INFO - Title verified successfully
+2022-03-07 21:17:38,233 - flush -INFO - Browser closed
+2022-03-07 21:17:49,520 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 21:17:49,745 - flush -INFO - Browser closed
+2022-03-07 21:17:58,907 - flush -INFO - All banners swiped successfully
+2022-03-07 21:17:59,158 - flush -INFO - Browser closed
+2022-03-07 21:18:08,839 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-07 21:18:09,060 - flush -INFO - Browser closed
+2022-03-07 21:18:19,682 - flush -INFO - Browser closed
+2022-03-07 21:18:28,975 - flush -INFO - language changed to second langauge successfully
+2022-03-07 21:18:29,175 - flush -INFO - Browser closed
+2022-03-07 21:18:37,904 - flush -INFO - language changed to third langauge successfully
+2022-03-07 21:18:38,157 - flush -INFO - Browser closed
+2022-03-07 21:18:47,071 - flush -INFO - language changed to fourth langauge successfully
+2022-03-07 21:18:47,398 - flush -INFO - Browser closed
+2022-03-07 21:20:44,728 - flush -INFO - URL verified successfully
+2022-03-07 21:20:45,072 - flush -INFO - Browser closed
+2022-03-07 21:20:54,174 - flush -INFO - Title verified successfully
+2022-03-07 21:20:54,422 - flush -INFO - Browser closed
+2022-03-07 21:21:04,618 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 21:21:04,854 - flush -INFO - Browser closed
+2022-03-07 21:21:13,520 - flush -INFO - All banners swiped successfully
+2022-03-07 21:21:13,762 - flush -INFO - Browser closed
+2022-03-07 21:21:22,680 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-07 21:21:22,953 - flush -INFO - Browser closed
+2022-03-07 21:21:33,616 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-07 21:21:33,918 - flush -INFO - Browser closed
+2022-03-07 21:21:42,888 - flush -INFO - language changed to second langauge successfully
+2022-03-07 21:21:43,122 - flush -INFO - Browser closed
+2022-03-07 21:21:51,811 - flush -INFO - language changed to third langauge successfully
+2022-03-07 21:21:52,068 - flush -INFO - Browser closed
+2022-03-07 21:22:00,696 - flush -INFO - language changed to fourth langauge successfully
+2022-03-07 21:22:00,954 - flush -INFO - Browser closed
+2022-03-07 21:22:11,624 - flush -INFO - URL launched
+2022-03-07 21:22:11,971 - flush -INFO - entered valid username
+2022-03-07 21:22:12,083 - flush -INFO - entered valid password
+2022-03-07 21:22:12,194 - flush -INFO - clicked on Play Now
+2022-03-07 21:22:18,712 - flush -INFO - Login test passed
+2022-03-07 21:22:19,072 - flush -INFO - Browser closed
+2022-03-07 21:22:33,080 - flush -INFO - URL launched
+2022-03-07 21:22:33,391 - flush -INFO - entered valid username
+2022-03-07 21:22:33,483 - flush -INFO - entered invalid password
+2022-03-07 21:22:33,577 - flush -INFO - clicked on Play Now
+2022-03-07 21:22:35,824 - flush -INFO - Login test failed
+2022-03-07 21:22:36,109 - flush -INFO - Browser closed
+2022-03-07 21:22:44,481 - flush -INFO - URL launched
+2022-03-07 21:22:44,844 - flush -INFO - entered Invalid username
+2022-03-07 21:22:44,941 - flush -INFO - entered valid password
+2022-03-07 21:22:45,041 - flush -INFO - clicked on Play Now
+2022-03-07 21:22:46,148 - flush -INFO - Login test failed
+2022-03-07 21:22:46,353 - flush -INFO - Browser closed
+2022-03-07 21:22:54,297 - flush -INFO - URL launched
+2022-03-07 21:22:54,623 - flush -INFO - entered invalid username
+2022-03-07 21:22:54,712 - flush -INFO - entered invalid password
+2022-03-07 21:22:54,802 - flush -INFO - clicked on Play Now
+2022-03-07 21:22:56,174 - flush -INFO - Login test failed
+2022-03-07 21:22:56,394 - flush -INFO - Browser closed
+2022-03-07 22:53:16,049 - flush -INFO - URL verified successfully
+2022-03-07 22:53:16,834 - flush -INFO - Browser closed
+2022-03-07 22:53:32,896 - flush -INFO - Title verified successfully
+2022-03-07 22:53:33,737 - flush -INFO - Browser closed
+2022-03-07 22:53:47,508 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 22:53:48,400 - flush -INFO - Browser closed
+2022-03-07 22:54:08,193 - flush -INFO - All banners swiped successfully
+2022-03-07 22:54:09,022 - flush -INFO - Browser closed
+2022-03-07 23:01:03,142 - flush -INFO - URL launched
+2022-03-07 23:01:03,515 - flush -INFO - entered valid username
+2022-03-07 23:01:03,706 - flush -INFO - entered valid password
+2022-03-07 23:01:03,835 - flush -INFO - clicked on Play Now
+2022-03-07 23:01:03,993 - flush -INFO - Login test passed
+2022-03-07 23:01:04,828 - flush -INFO - Browser closed
+2022-03-07 23:01:25,512 - flush -INFO - URL launched
+2022-03-07 23:01:25,856 - flush -INFO - entered valid username
+2022-03-07 23:01:25,982 - flush -INFO - entered invalid password
+2022-03-07 23:01:26,145 - flush -INFO - clicked on Play Now
+2022-03-07 23:01:28,495 - flush -INFO - Login test failed
+2022-03-07 23:01:29,320 - flush -INFO - Browser closed
+2022-03-07 23:04:19,822 - flush -INFO - URL verified successfully
+2022-03-07 23:04:20,737 - flush -INFO - Browser closed
+2022-03-07 23:04:36,506 - flush -INFO - Title verified successfully
+2022-03-07 23:04:37,240 - flush -INFO - Browser closed
+2022-03-07 23:04:50,389 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-07 23:04:51,109 - flush -INFO - Browser closed
+2022-03-07 23:05:05,944 - flush -INFO - All banners swiped successfully
+2022-03-07 23:05:06,651 - flush -INFO - Browser closed
+2022-03-07 23:05:22,772 - flush -INFO - Browser closed
+2022-03-07 23:05:35,012 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-07 23:05:35,752 - flush -INFO - Browser closed
+2022-03-07 23:05:51,720 - flush -INFO - language changed to second langauge successfully
+2022-03-07 23:05:52,435 - flush -INFO - Browser closed
+2022-03-07 23:06:02,800 - flush -INFO - language changed to third langauge successfully
+2022-03-07 23:06:03,632 - flush -INFO - Browser closed
+2022-03-07 23:06:13,695 - flush -INFO - language changed to fourth langauge successfully
+2022-03-07 23:06:14,495 - flush -INFO - Browser closed
+2022-03-08 06:54:42,201 - flush -INFO - URL launched
+2022-03-08 06:54:42,622 - flush -INFO - entered valid username
+2022-03-08 06:54:42,765 - flush -INFO - entered valid password
+2022-03-08 06:54:42,882 - flush -INFO - clicked on Play Now
+2022-03-08 06:54:49,214 - flush -INFO - Login test passed
+2022-03-08 06:54:50,579 - flush -INFO - Browser closed
+2022-03-08 06:54:59,729 - flush -INFO - URL launched
+2022-03-08 06:55:00,077 - flush -INFO - entered valid username
+2022-03-08 06:55:00,172 - flush -INFO - entered invalid password
+2022-03-08 06:55:00,271 - flush -INFO - clicked on Play Now
+2022-03-08 06:55:02,451 - flush -INFO - Login test failed
+2022-03-08 06:55:02,772 - flush -INFO - Browser closed
+2022-03-08 06:55:10,570 - flush -INFO - URL launched
+2022-03-08 06:55:10,912 - flush -INFO - entered Invalid username
+2022-03-08 06:55:11,010 - flush -INFO - entered valid password
+2022-03-08 06:55:11,108 - flush -INFO - clicked on Play Now
+2022-03-08 06:55:12,127 - flush -INFO - Login test failed
+2022-03-08 06:55:12,383 - flush -INFO - Browser closed
+2022-03-08 06:55:21,470 - flush -INFO - URL launched
+2022-03-08 06:55:21,807 - flush -INFO - entered invalid username
+2022-03-08 06:55:21,892 - flush -INFO - entered invalid password
+2022-03-08 06:55:21,985 - flush -INFO - clicked on Play Now
+2022-03-08 06:55:22,990 - flush -INFO - Login test failed
+2022-03-08 06:55:23,246 - flush -INFO - Browser closed
+2022-03-08 06:56:55,267 - flush -INFO - URL verified successfully
+2022-03-08 06:56:55,733 - flush -INFO - Browser closed
+2022-03-08 06:57:04,332 - flush -INFO - Title verified successfully
+2022-03-08 06:57:04,597 - flush -INFO - Browser closed
+2022-03-08 06:57:11,878 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-08 06:57:12,161 - flush -INFO - Browser closed
+2022-03-08 06:57:19,040 - flush -INFO - All banners swiped successfully
+2022-03-08 06:57:19,328 - flush -INFO - Browser closed
+2022-03-08 06:57:29,148 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-08 06:57:29,400 - flush -INFO - Browser closed
+2022-03-08 06:57:37,121 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-08 06:57:37,383 - flush -INFO - Browser closed
+2022-03-08 06:57:46,369 - flush -INFO - language changed to second langauge successfully
+2022-03-08 06:57:46,614 - flush -INFO - Browser closed
+2022-03-08 06:57:54,367 - flush -INFO - language changed to third langauge successfully
+2022-03-08 06:57:54,675 - flush -INFO - Browser closed
+2022-03-08 06:58:02,784 - flush -INFO - language changed to fourth langauge successfully
+2022-03-08 06:58:03,051 - flush -INFO - Browser closed
+2022-03-08 06:58:10,654 - flush -INFO - URL launched
+2022-03-08 06:58:11,090 - flush -INFO - entered valid username
+2022-03-08 06:58:11,236 - flush -INFO - entered valid password
+2022-03-08 06:58:11,370 - flush -INFO - clicked on Play Now
+2022-03-08 06:58:17,524 - flush -INFO - Login test passed
+2022-03-08 06:58:18,896 - flush -INFO - Browser closed
+2022-03-08 06:58:26,585 - flush -INFO - URL launched
+2022-03-08 06:58:26,948 - flush -INFO - entered valid username
+2022-03-08 06:58:27,041 - flush -INFO - entered invalid password
+2022-03-08 06:58:27,130 - flush -INFO - clicked on Play Now
+2022-03-08 06:58:29,389 - flush -INFO - Login test failed
+2022-03-08 06:58:29,641 - flush -INFO - Browser closed
+2022-03-08 06:58:38,351 - flush -INFO - URL launched
+2022-03-08 06:58:38,700 - flush -INFO - entered Invalid username
+2022-03-08 06:58:38,799 - flush -INFO - entered valid password
+2022-03-08 06:58:38,899 - flush -INFO - clicked on Play Now
+2022-03-08 06:58:39,914 - flush -INFO - Login test failed
+2022-03-08 06:58:40,213 - flush -INFO - Browser closed
+2022-03-08 06:58:47,498 - flush -INFO - URL launched
+2022-03-08 06:58:47,845 - flush -INFO - entered invalid username
+2022-03-08 06:58:47,939 - flush -INFO - entered invalid password
+2022-03-08 06:58:48,040 - flush -INFO - clicked on Play Now
+2022-03-08 06:58:48,974 - flush -INFO - Login test failed
+2022-03-08 06:58:49,218 - flush -INFO - Browser closed
+=======
+2022-03-11 18:50:36,851 - flush -INFO - URL verified successfully
+2022-03-11 18:50:40,075 - flush -INFO - Browser closed
+2022-03-11 18:51:24,163 - flush -INFO - Title verified successfully
+2022-03-11 18:51:24,770 - flush -INFO - Browser closed
+2022-03-11 18:52:36,376 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-11 18:52:36,983 - flush -INFO - Browser closed
+2022-03-11 18:53:06,292 - flush -INFO - All banners swiped successfully
+2022-03-11 18:53:09,240 - flush -INFO - Browser closed
+2022-03-11 18:54:08,771 - flush -INFO - Browser closed
+2022-03-11 18:55:00,742 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-11 18:55:03,234 - flush -INFO - Browser closed
+2022-03-11 18:57:01,729 - flush -INFO - language changed to second langauge successfully
+2022-03-11 18:57:02,770 - flush -INFO - Browser closed
+2022-03-11 18:57:40,687 - flush -INFO - language changed to third langauge successfully
+2022-03-11 18:57:46,308 - flush -INFO - Browser closed
+2022-03-11 18:58:21,570 - flush -INFO - language changed to fourth langauge successfully
+2022-03-11 18:58:22,708 - flush -INFO - Browser closed
+2022-03-11 18:58:57,708 - flush -INFO - Browser closed
+2022-03-11 18:59:32,862 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-11 18:59:34,900 - flush -INFO - Browser closed
+2022-03-11 19:00:11,312 - flush -INFO - clicked on 'Email' of 'Get flush with Flush Casino' banner
+2022-03-11 19:00:12,677 - flush -INFO - Browser closed
+2022-03-11 19:00:46,640 - flush -INFO - Swiped all sections under 'Games' successfully
+2022-03-11 19:00:50,202 - flush -INFO - Browser closed
+2022-03-11 19:01:24,807 - flush -INFO - Login Popup displayed after clicked on 'BET' in Dice game
+2022-03-11 19:01:42,773 - flush -INFO - Browser closed
+2022-03-11 19:03:07,013 - flush -INFO - Login Popup displayed after clicked on 'BET' in Crash game
+2022-03-11 19:03:07,860 - flush -INFO - Browser closed
+2022-03-11 19:04:00,839 - flush -INFO - Login Popup displayed after clicked on 'BET' in Mines game
+2022-03-11 19:04:01,483 - flush -INFO - Browser closed
+2022-03-11 19:05:14,806 - flush -INFO - Login Popup displayed after clicked on 'BET' in Wheel game
+2022-03-11 19:05:15,612 - flush -INFO - Browser closed
+2022-03-11 19:05:45,891 - flush -INFO - Login Popup displayed after clicked on 'BET' in HiLo game
+2022-03-11 19:05:47,149 - flush -INFO - Browser closed
+2022-03-11 19:06:19,800 - flush -INFO - Login Popup displayed after clicked on 'BET' in Limbo game
+2022-03-11 19:06:20,417 - flush -INFO - Browser closed
+2022-03-11 19:07:03,292 - flush -INFO - Login Popup displayed after clicked on 'BET' in Plinko game
+2022-03-11 19:07:04,715 - flush -INFO - Browser closed
+2022-03-11 19:08:08,046 - flush -INFO - URL launched
+2022-03-11 19:08:09,365 - flush -INFO - entered valid username
+2022-03-11 19:08:10,039 - flush -INFO - entered valid password
+2022-03-11 19:08:10,717 - flush -INFO - clicked on Play Now
+2022-03-11 19:08:25,531 - flush -INFO - Login test passed
+2022-03-11 19:08:26,239 - flush -INFO - Browser closed
+2022-03-11 19:08:53,285 - flush -INFO - URL launched
+2022-03-11 19:08:54,887 - flush -INFO - entered valid username
+2022-03-11 19:08:55,450 - flush -INFO - entered invalid password
+2022-03-11 19:08:56,118 - flush -INFO - clicked on Play Now
+2022-03-11 19:08:58,426 - flush -INFO - Login test failed
+2022-03-11 19:08:59,707 - flush -INFO - Browser closed
+2022-03-11 19:09:27,823 - flush -INFO - URL launched
+2022-03-11 19:09:29,218 - flush -INFO - entered Invalid username
+2022-03-11 19:09:30,141 - flush -INFO - entered valid password
+2022-03-11 19:09:30,405 - flush -INFO - clicked on Play Now
+2022-03-11 19:09:33,185 - flush -INFO - Login test failed
+2022-03-11 19:09:34,015 - flush -INFO - Browser closed
+2022-03-11 19:10:00,076 - flush -INFO - URL launched
+2022-03-11 19:10:01,471 - flush -INFO - entered invalid username
+2022-03-11 19:10:02,554 - flush -INFO - entered invalid password
+2022-03-11 19:10:03,016 - flush -INFO - clicked on Play Now
+2022-03-11 19:10:04,631 - flush -INFO - Login test failed
+2022-03-11 19:10:05,158 - flush -INFO - Browser closed
+>>>>>>> af84ca6450bbee3b2c9065fa9eae7257265f3ad6
+2022-03-12 21:47:33,050 - flush -INFO - Browser closed
+2022-03-12 21:47:52,533 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-12 21:47:52,859 - flush -INFO - Browser closed
+2022-03-12 21:48:06,471 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-12 21:48:10,823 - flush -INFO - Browser closed
+2022-03-13 07:14:48,007 - flush -INFO - Browser closed
+2022-03-13 07:14:58,620 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-13 07:14:58,887 - flush -INFO - Browser closed
+2022-03-13 07:15:09,794 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-13 07:15:14,084 - flush -INFO - Browser closed
+2022-03-13 07:16:45,581 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 07:16:49,826 - flush -INFO - Browser closed
+2022-03-13 07:17:39,982 - flush -INFO - Browser closed
+2022-03-13 07:17:47,211 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 07:17:47,395 - flush -INFO - Browser closed
+2022-03-13 07:23:25,843 - flush -INFO - Browser closed
+2022-03-13 07:23:45,038 - flush -INFO - Browser closed
+2022-03-13 07:28:08,408 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 07:28:12,694 - flush -INFO - Browser closed
+2022-03-13 07:28:31,356 - flush -INFO - Browser closed
+2022-03-13 07:30:15,071 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 07:30:19,334 - flush -INFO - Browser closed
+2022-03-13 07:30:27,519 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 07:30:31,721 - flush -INFO - Browser closed
+2022-03-13 07:31:54,722 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-13 07:31:55,047 - flush -INFO - Browser closed
+2022-03-13 07:32:06,224 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-13 07:32:10,566 - flush -INFO - Browser closed
+2022-03-13 07:32:20,660 - flush -INFO - clicked on 'Email' of 'Get flush with Flush Casino' banner
+2022-03-13 07:32:24,890 - flush -INFO - Browser closed
+2022-03-13 07:35:38,121 - flush -INFO - URL verified successfully
+2022-03-13 07:35:42,445 - flush -INFO - Browser closed
+2022-03-13 07:35:49,356 - flush -INFO - Title verified successfully
+2022-03-13 07:35:49,591 - flush -INFO - Browser closed
+2022-03-13 07:35:57,409 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-13 07:36:01,648 - flush -INFO - Browser closed
+2022-03-13 07:36:09,619 - flush -INFO - All banners swiped successfully
+2022-03-13 07:36:13,828 - flush -INFO - Browser closed
+2022-03-13 07:36:22,021 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 07:36:26,243 - flush -INFO - Browser closed
+2022-03-13 07:36:45,699 - flush -INFO - Browser closed
+2022-03-13 07:36:52,362 - flush -INFO - language changed to second langauge successfully
+2022-03-13 07:36:52,639 - flush -INFO - Browser closed
+2022-03-13 07:36:59,997 - flush -INFO - language changed to third langauge successfully
+2022-03-13 07:37:04,168 - flush -INFO - Browser closed
+2022-03-13 07:37:11,250 - flush -INFO - language changed to fourth langauge successfully
+2022-03-13 07:37:11,445 - flush -INFO - Browser closed
+2022-03-13 07:37:21,957 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-13 07:37:26,242 - flush -INFO - Browser closed
+2022-03-13 07:37:37,365 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-13 07:37:41,686 - flush -INFO - Browser closed
+2022-03-13 07:37:50,492 - flush -INFO - clicked on 'Email' of 'Get flush with Flush Casino' banner
+2022-03-13 07:37:50,742 - flush -INFO - Browser closed
+2022-03-13 07:37:58,392 - flush -INFO - Swiped all sections under 'Games' successfully
+2022-03-13 07:38:02,602 - flush -INFO - Browser closed
+2022-03-13 07:38:11,221 - flush -INFO - Login Popup displayed after clicked on 'BET' in Dice game
+2022-03-13 07:38:15,439 - flush -INFO - Browser closed
+2022-03-13 07:38:43,933 - flush -INFO - Browser closed
+2022-03-13 07:38:53,231 - flush -INFO - Login Popup displayed after clicked on 'BET' in Mines game
+2022-03-13 07:38:57,399 - flush -INFO - Browser closed
+2022-03-13 07:39:05,836 - flush -INFO - Login Popup displayed after clicked on 'BET' in Wheel game
+2022-03-13 07:39:06,264 - flush -INFO - Browser closed
+2022-03-13 07:39:15,277 - flush -INFO - Login Popup displayed after clicked on 'BET' in HiLo game
+2022-03-13 07:39:15,510 - flush -INFO - Browser closed
+2022-03-13 07:39:25,005 - flush -INFO - Login Popup displayed after clicked on 'BET' in Limbo game
+2022-03-13 07:39:25,182 - flush -INFO - Browser closed
+2022-03-13 07:39:34,605 - flush -INFO - Login Popup displayed after clicked on 'BET' in Plinko game
+2022-03-13 07:39:34,866 - flush -INFO - Browser closed
+2022-03-13 07:39:44,038 - flush -INFO - URL launched
+2022-03-13 07:39:44,766 - flush -INFO - entered valid username
+2022-03-13 07:39:44,875 - flush -INFO - entered valid password
+2022-03-13 07:39:44,983 - flush -INFO - clicked on Play Now
+2022-03-13 07:39:52,523 - flush -INFO - Login test passed
+2022-03-13 07:39:56,760 - flush -INFO - Browser closed
+2022-03-13 07:40:03,944 - flush -INFO - URL launched
+2022-03-13 07:40:04,306 - flush -INFO - entered valid username
+2022-03-13 07:40:04,398 - flush -INFO - entered invalid password
+2022-03-13 07:40:04,501 - flush -INFO - clicked on Play Now
+2022-03-13 07:40:06,808 - flush -INFO - Login test failed
+2022-03-13 07:40:11,011 - flush -INFO - Browser closed
+2022-03-13 07:40:18,711 - flush -INFO - URL launched
+2022-03-13 07:40:19,144 - flush -INFO - entered Invalid username
+2022-03-13 07:40:19,253 - flush -INFO - entered valid password
+2022-03-13 07:40:19,432 - flush -INFO - clicked on Play Now
+2022-03-13 07:40:20,501 - flush -INFO - Login test failed
+2022-03-13 07:40:24,670 - flush -INFO - Browser closed
+2022-03-13 07:40:32,573 - flush -INFO - URL launched
+2022-03-13 07:40:32,963 - flush -INFO - entered invalid username
+2022-03-13 07:40:33,055 - flush -INFO - entered invalid password
+2022-03-13 07:40:33,156 - flush -INFO - clicked on Play Now
+2022-03-13 07:40:34,300 - flush -INFO - Login test failed
+2022-03-13 07:40:38,488 - flush -INFO - Browser closed
+2022-03-13 07:49:35,452 - flush -INFO - URL verified successfully
+2022-03-13 07:49:39,865 - flush -INFO - Browser closed
+2022-03-13 07:49:49,884 - flush -INFO - Title verified successfully
+2022-03-13 07:49:54,099 - flush -INFO - Browser closed
+2022-03-13 07:50:04,111 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-13 07:50:04,274 - flush -INFO - Browser closed
+2022-03-13 07:50:14,460 - flush -INFO - All banners swiped successfully
+2022-03-13 07:50:14,720 - flush -INFO - Browser closed
+2022-03-13 07:50:28,727 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 07:50:32,923 - flush -INFO - Browser closed
+2022-03-13 07:50:54,866 - flush -INFO - Browser closed
+2022-03-13 07:51:04,657 - flush -INFO - language changed to second langauge successfully
+2022-03-13 07:51:04,838 - flush -INFO - Browser closed
+2022-03-13 07:51:20,760 - flush -INFO - language changed to third langauge successfully
+2022-03-13 07:51:20,934 - flush -INFO - Browser closed
+2022-03-13 07:51:30,741 - flush -INFO - language changed to fourth langauge successfully
+2022-03-13 07:51:31,004 - flush -INFO - Browser closed
+2022-03-13 07:51:44,244 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-13 07:51:48,558 - flush -INFO - Browser closed
+2022-03-13 07:52:01,935 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-13 07:52:06,186 - flush -INFO - Browser closed
+2022-03-13 07:52:20,904 - flush -INFO - clicked on 'Email' of 'Get flush with Flush Casino' banner
+2022-03-13 07:52:21,058 - flush -INFO - Browser closed
+2022-03-13 07:52:31,986 - flush -INFO - Swiped all sections under 'Games' successfully
+2022-03-13 07:52:32,160 - flush -INFO - Browser closed
+2022-03-13 07:52:43,563 - flush -INFO - Login Popup displayed after clicked on 'BET' in Dice game
+2022-03-13 07:52:47,774 - flush -INFO - Browser closed
+2022-03-13 07:53:00,006 - flush -INFO - Login Popup displayed after clicked on 'BET' in Crash game
+2022-03-13 07:53:04,202 - flush -INFO - Browser closed
+2022-03-13 07:53:14,807 - flush -INFO - Login Popup displayed after clicked on 'BET' in Mines game
+2022-03-13 07:53:19,014 - flush -INFO - Browser closed
+2022-03-13 07:53:26,947 - flush -INFO - Login Popup displayed after clicked on 'BET' in Wheel game
+2022-03-13 07:53:31,157 - flush -INFO - Browser closed
+2022-03-13 07:53:44,012 - flush -INFO - Login Popup displayed after clicked on 'BET' in HiLo game
+2022-03-13 07:53:44,219 - flush -INFO - Browser closed
+2022-03-13 07:53:55,322 - flush -INFO - Login Popup displayed after clicked on 'BET' in Limbo game
+2022-03-13 07:53:55,500 - flush -INFO - Browser closed
+2022-03-13 07:54:06,074 - flush -INFO - Login Popup displayed after clicked on 'BET' in Plinko game
+2022-03-13 07:54:06,323 - flush -INFO - Browser closed
+2022-03-13 08:04:38,450 - flush -INFO - Browser closed
+2022-03-13 08:04:53,542 - flush -INFO - Browser closed
+2022-03-13 08:10:08,245 - flush -INFO - Browser closed
+2022-03-13 08:10:21,540 - flush -INFO - Browser closed
+2022-03-13 08:13:03,102 - flush -INFO - Browser closed
+2022-03-13 08:13:15,131 - flush -INFO - Browser closed
+2022-03-13 08:14:10,855 - flush -INFO - Browser closed
+2022-03-13 08:14:21,259 - flush -INFO - Browser closed
+2022-03-13 08:15:18,024 - flush -INFO - Browser closed
+2022-03-13 08:15:27,871 - flush -INFO - Browser closed
+2022-03-13 08:17:38,032 - flush -INFO - Browser closed
+2022-03-13 08:17:45,816 - flush -INFO - Browser closed
+2022-03-13 08:19:15,617 - flush -INFO - Browser closed
+2022-03-13 08:19:34,539 - flush -INFO - Browser closed
+2022-03-13 08:32:41,521 - flush -INFO - Browser closed
+2022-03-13 08:32:56,874 - flush -INFO - Browser closed
+2022-03-13 08:33:52,968 - flush -INFO - Browser closed
+2022-03-13 08:34:02,616 - flush -INFO - Browser closed
+2022-03-13 09:37:37,456 - flush -INFO - Browser closed
+2022-03-13 09:37:59,057 - flush -INFO - Browser closed
+2022-03-13 09:40:06,759 - flush -INFO - Browser closed
+2022-03-13 09:40:15,084 - flush -INFO - Browser closed
+2022-03-13 09:42:28,742 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 09:42:32,937 - flush -INFO - Browser closed
+2022-03-13 09:43:06,872 - flush -INFO - Browser closed
+2022-03-13 09:44:27,247 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 09:44:31,426 - flush -INFO - Browser closed
+2022-03-13 09:44:41,134 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 09:44:41,288 - flush -INFO - Browser closed
+2022-03-13 09:46:26,514 - flush -INFO - Browser closed
+2022-03-13 09:46:35,344 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 09:46:39,622 - flush -INFO - Browser closed
+2022-03-13 09:47:44,230 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 09:47:44,500 - flush -INFO - Browser closed
+2022-03-13 09:47:53,247 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 09:47:53,446 - flush -INFO - Browser closed
+2022-03-13 09:48:13,701 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 09:48:17,946 - flush -INFO - Browser closed
+2022-03-13 09:48:30,559 - flush -INFO - Browser closed
+2022-03-13 09:53:16,078 - flush -INFO - Browser closed
+2022-03-13 09:53:26,969 - flush -INFO - Browser closed
+2022-03-13 10:07:14,081 - flush -INFO - Browser closed
+2022-03-13 10:07:21,213 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 10:07:21,361 - flush -INFO - Browser closed
+2022-03-13 10:09:25,569 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 10:09:29,719 - flush -INFO - Browser closed
+2022-03-13 10:09:45,668 - flush -INFO - Browser closed
+2022-03-13 10:33:20,072 - flush -INFO - URL verified successfully
+2022-03-13 10:33:24,287 - flush -INFO - Browser closed
+2022-03-13 10:33:33,590 - flush -INFO - Title verified successfully
+2022-03-13 10:33:33,754 - flush -INFO - Browser closed
+2022-03-13 10:33:43,068 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-13 10:33:43,350 - flush -INFO - Browser closed
+2022-03-13 10:33:52,703 - flush -INFO - All banners swiped successfully
+2022-03-13 10:33:52,986 - flush -INFO - Browser closed
+2022-03-13 10:34:01,035 - flush -INFO - clicked on MORE INFO of 'First time on flush' banner
+2022-03-13 10:34:01,220 - flush -INFO - Browser closed
+2022-03-13 10:34:11,235 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-13 10:34:11,436 - flush -INFO - Browser closed
+2022-03-13 10:34:22,415 - flush -INFO - language changed to second langauge successfully
+2022-03-13 10:34:26,611 - flush -INFO - Browser closed
+2022-03-13 10:34:35,025 - flush -INFO - language changed to third langauge successfully
+2022-03-13 10:34:39,286 - flush -INFO - Browser closed
+2022-03-13 10:34:48,841 - flush -INFO - language changed to fourth langauge successfully
+2022-03-13 10:34:53,025 - flush -INFO - Browser closed
+2022-03-13 10:35:03,426 - flush -INFO - clicked on 'Google' of 'Get flush with Flush Casino' banner
+2022-03-13 10:35:07,753 - flush -INFO - Browser closed
+2022-03-13 10:35:19,590 - flush -INFO - clicked on 'Facebook' of 'Get flush with Flush Casino' banner
+2022-03-13 10:35:19,832 - flush -INFO - Browser closed
+2022-03-13 10:35:31,539 - flush -INFO - clicked on 'Email' of 'Get flush with Flush Casino' banner
+2022-03-13 10:35:35,742 - flush -INFO - Browser closed
+2022-03-13 10:35:47,069 - flush -INFO - Swiped all sections under 'Games' successfully
+2022-03-13 10:35:51,200 - flush -INFO - Browser closed
+2022-03-13 10:36:01,899 - flush -INFO - Login Popup displayed after clicked on 'BET' in Dice game
+2022-03-13 10:36:06,047 - flush -INFO - Browser closed
+2022-03-13 10:36:17,162 - flush -INFO - Login Popup displayed after clicked on 'BET' in Crash game
+2022-03-13 10:36:21,345 - flush -INFO - Browser closed
+2022-03-13 10:36:31,934 - flush -INFO - Login Popup displayed after clicked on 'BET' in Mines game
+2022-03-13 10:36:32,112 - flush -INFO - Browser closed
+2022-03-13 10:36:41,879 - flush -INFO - Login Popup displayed after clicked on 'BET' in Wheel game
+2022-03-13 10:36:42,152 - flush -INFO - Browser closed
+2022-03-13 10:36:58,417 - flush -INFO - Login Popup displayed after clicked on 'BET' in HiLo game
+2022-03-13 10:37:02,655 - flush -INFO - Browser closed
+2022-03-13 10:37:21,797 - flush -INFO - Login Popup displayed after clicked on 'BET' in Limbo game
+2022-03-13 10:37:26,007 - flush -INFO - Browser closed
+2022-03-13 10:37:36,857 - flush -INFO - Login Popup displayed after clicked on 'BET' in Plinko game
+2022-03-13 10:37:37,071 - flush -INFO - Browser closed
+2022-03-13 10:37:48,423 - flush -INFO - URL launched
+2022-03-13 10:37:48,743 - flush -INFO - entered valid username
+2022-03-13 10:37:48,843 - flush -INFO - entered valid password
+2022-03-13 10:37:48,940 - flush -INFO - clicked on Play Now
+2022-03-13 10:37:55,100 - flush -INFO - Login test passed
+2022-03-13 10:37:59,305 - flush -INFO - Browser closed
+2022-03-13 10:38:13,994 - flush -INFO - URL launched
+2022-03-13 10:38:14,461 - flush -INFO - entered valid username
+2022-03-13 10:38:14,676 - flush -INFO - entered invalid password
+2022-03-13 10:38:14,873 - flush -INFO - clicked on Play Now
+2022-03-13 10:38:16,996 - flush -INFO - Login test failed
+2022-03-13 10:38:21,151 - flush -INFO - Browser closed
+2022-03-13 10:38:31,917 - flush -INFO - URL launched
+2022-03-13 10:38:32,230 - flush -INFO - entered Invalid username
+2022-03-13 10:38:32,432 - flush -INFO - entered valid password
+2022-03-13 10:38:32,542 - flush -INFO - clicked on Play Now
+2022-03-13 10:38:33,678 - flush -INFO - Login test failed
+2022-03-13 10:38:33,853 - flush -INFO - Browser closed
+2022-03-13 10:38:45,382 - flush -INFO - URL launched
+2022-03-13 10:38:45,756 - flush -INFO - entered invalid username
+2022-03-13 10:38:45,846 - flush -INFO - entered invalid password
+2022-03-13 10:38:45,936 - flush -INFO - clicked on Play Now
+2022-03-13 10:38:46,997 - flush -INFO - Login test failed
+2022-03-13 10:38:51,145 - flush -INFO - Browser closed
+2022-03-19 16:24:12,803 - flush -INFO - URL verified successfully
+2022-03-19 16:24:23,971 - flush -INFO - Browser closed
+2022-03-19 16:25:09,998 - flush -INFO - Title verified successfully
+2022-03-19 16:25:20,207 - flush -INFO - Browser closed
+2022-03-19 16:26:05,710 - flush -INFO - User redirected to homepage successfully after clicking on flush logo
+2022-03-19 16:26:16,094 - flush -INFO - Browser closed
+2022-03-19 16:26:53,789 - flush -INFO - All banners swiped successfully
+2022-03-19 16:26:54,165 - flush -INFO - Browser closed
+2022-03-19 16:28:09,008 - flush -INFO - Browser closed
+2022-03-19 16:28:55,731 - flush -INFO - clicked on MORE INFO of 'Multiplier Madness!' banner
+2022-03-19 16:29:05,944 - flush -INFO - Browser closed
+2022-03-19 16:30:00,768 - flush -INFO - Browser closed
+2022-03-19 16:30:56,782 - flush -INFO - Browser closed
+2022-03-19 16:31:41,225 - flush -INFO - Browser closed
+2022-03-19 16:32:56,950 - flush -INFO - Browser closed
+2022-03-19 16:34:00,134 - flush -INFO - Browser closed
+2022-03-19 16:34:49,045 - flush -INFO - Browser closed
+2022-03-19 16:35:25,181 - flush -INFO - Swiped all sections under 'Games' successfully
+2022-03-19 16:35:35,434 - flush -INFO - Browser closed
+2022-03-19 16:36:11,411 - flush -INFO - Login Popup displayed after clicked on 'BET' in Dice game
+2022-03-19 16:36:21,969 - flush -INFO - Browser closed
+2022-03-19 16:37:37,095 - flush -INFO - Browser closed
+2022-03-19 16:38:13,246 - flush -INFO - Login Popup displayed after clicked on 'BET' in Mines game
+2022-03-19 16:38:23,508 - flush -INFO - Browser closed
+2022-03-19 16:38:56,917 - flush -INFO - Login Popup displayed after clicked on 'BET' in Wheel game
+2022-03-19 16:39:07,170 - flush -INFO - Browser closed
+2022-03-19 16:39:43,994 - flush -INFO - Login Popup displayed after clicked on 'BET' in HiLo game
+2022-03-19 16:39:54,329 - flush -INFO - Browser closed
+2022-03-19 16:40:30,113 - flush -INFO - Login Popup displayed after clicked on 'BET' in Limbo game
+2022-03-19 16:40:40,597 - flush -INFO - Browser closed
+2022-03-19 16:41:24,588 - flush -INFO - Login Popup displayed after clicked on 'BET' in Plinko game
+2022-03-19 16:41:34,769 - flush -INFO - Browser closed
+2022-03-27 15:48:13,087 - flush -INFO - Login button clicked successfully
+2022-03-27 15:48:15,844 - flush -INFO - Browser closed
+2022-03-27 15:50:20,559 - flush -INFO - Login button clicked successfully
+2022-03-27 15:50:20,844 - flush -INFO - Browser closed
+2022-03-27 15:56:08,799 - flush -INFO - Login button clicked successfully
+2022-03-27 15:56:09,120 - flush -INFO - Browser closed
+2022-03-28 12:14:30,681 - flush -INFO - Login button clicked successfully
+2022-03-28 12:14:32,909 - flush -INFO - Browser closed
+2022-03-28 12:15:22,218 - flush -INFO - URL launched
+2022-03-28 12:15:24,004 - flush -INFO - entered valid username
+2022-03-28 12:15:24,171 - flush -INFO - entered valid password
+2022-03-28 12:15:25,013 - flush -INFO - clicked on Play Now
+2022-03-28 12:15:38,018 - flush -INFO - Browser closed
+2022-03-28 12:16:25,080 - flush -INFO - URL launched
+2022-03-28 12:16:27,041 - flush -INFO - entered valid username
+2022-03-28 12:16:27,394 - flush -INFO - entered invalid password
+2022-03-28 12:16:28,465 - flush -INFO - clicked on Play Now
+2022-03-28 13:54:28,454 - flush -INFO - URL launched
+2022-03-28 13:54:30,477 - flush -INFO - entered valid username
+2022-03-28 13:54:30,798 - flush -INFO - entered valid password
+2022-03-28 13:54:31,559 - flush -INFO - clicked on Play Now
+2022-03-28 13:54:43,875 - flush -INFO - Login test passed
+2022-03-28 13:54:44,755 - flush -INFO - Browser closed
+2022-03-28 13:56:59,857 - flush -INFO - Browser closed
+2022-03-28 14:15:45,077 - flush -INFO - Browser closed
+2022-03-28 14:22:57,553 - flush -INFO - Login button clicked successfully
+2022-03-28 14:23:12,304 - flush -INFO - Browser closed
+2022-03-28 14:27:23,860 - flush -INFO - Login button clicked successfully
+2022-03-28 14:27:52,620 - flush -INFO - Browser closed
+2022-03-28 14:33:23,984 - flush -INFO - Login button clicked successfully
+2022-03-28 14:33:42,000 - flush -INFO - Browser closed
+2022-03-28 14:36:47,384 - flush -INFO - Browser closed
+2022-03-28 14:41:20,121 - flush -INFO - Login button clicked successfully
+2022-03-28 14:41:44,384 - flush -INFO - Browser closed
+2022-03-28 14:45:45,278 - flush -INFO - Login button clicked successfully
+2022-03-28 14:46:54,953 - flush -INFO - Browser closed

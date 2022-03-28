@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+<listeners>
+		<listener class-name="com.Flush.Tests.Listeners"/>
+	</listeners>
+
+<test thread-count="5" name="Home Page Test" >
+    <classes>
+      <class name="com.Flush.Tests.HomepageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="LoginPopup Page Test" >
+    <classes>
+      <class name="com.Flush.Tests.LoginPopupTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

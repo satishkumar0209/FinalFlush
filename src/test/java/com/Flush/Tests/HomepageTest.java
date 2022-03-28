@@ -19,6 +19,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.Flush.PageObjects.Homepage;
+import com.Flush.PageObjects.WelcomePopup;
 import com.Flush.Utilities.BaseClass;
 
 public class HomepageTest extends BaseClass {
@@ -35,19 +36,19 @@ public class HomepageTest extends BaseClass {
 	}
 
 	@Test(enabled = true, priority = 1)
-	public void Loginasvaliduser() throws IOException {
+	public void LoginAsValidUser() throws IOException {
 
 		wait = new WebDriverWait(driver, 50);
-		
+
 		Homepage.Loginbutton(driver).click();
 
 		log.info("Login button clicked successfully");
 
-		Homepage.Welcomeemail(driver).sendKeys("satishkumar@rapidinnovation.dev");
+		WelcomePopup.Welcomeemail(driver).sendKeys("satishkumar@rapidinnovation.dev");
 
-		Homepage.Welcomepassword(driver).sendKeys("Satvik@123");
+		WelcomePopup.Welcomepassword(driver).sendKeys("Satvik@123");
 
-		Homepage.Welcomeplaynow(driver).click();
+		WelcomePopup.Welcomeplaynow(driver).click();
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='WALLET']")));
 

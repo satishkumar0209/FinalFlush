@@ -1,5 +1,7 @@
 package com.Flush.Tests;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -53,6 +55,8 @@ public class HomepageTest extends BaseClass {
 		WelcomePopup.Welcomeplaynow(driver).click();
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='WALLET']")));
+		
+		
 
 	}
 	

@@ -18,6 +18,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.Flush.PageObjects.DashboardPage;
 import com.Flush.PageObjects.Homepage;
 import com.Flush.PageObjects.WelcomePopup;
 import com.Flush.Utilities.BaseClass;
@@ -51,6 +53,27 @@ public class HomepageTest extends BaseClass {
 		WelcomePopup.Welcomeplaynow(driver).click();
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='WALLET']")));
+
+	}
+	
+	@Test(enabled = false, priority = 1)
+	public void UserLoginLogout() throws IOException {
+
+		Homepage.Loginbutton(driver).click();
+
+		WelcomePopup.Welcomeemail(driver).sendKeys("satishkumar@rapidinnovation.dev");
+
+		WelcomePopup.Welcomepassword(driver).sendKeys("Satvik@123");
+
+		WelcomePopup.Welcomeplaynow(driver).click();
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='WALLET']")));
+
+		DashboardPage.Userdropdown(driver).click();
+
+		DashboardPage.Logout(driver).click();
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='LOG IN']")));
 
 	}
 
@@ -485,35 +508,7 @@ public class HomepageTest extends BaseClass {
 
 	}
 
-	@Test(enabled = false, priority = 1)
-	public void LoginWelcomeLogin() throws IOException {
-		Properties p = new Properties();
-
-		FileInputStream fi = new FileInputStream(".//Flush.properties");
-
-		p.load(fi);
-
-		wait = new WebDriverWait(driver, 50);
-
-		driver.findElement(By.xpath(p.getProperty("Loginbutton"))).click();
-
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(p.getProperty("Welcomeemail"))));
-
-		driver.findElement(By.xpath(p.getProperty("Welcomeemail"))).sendKeys("satishkumar@rapidinnovation.dev");
-
-		driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("Satvik@123");
-
-		driver.findElement(By.xpath(p.getProperty("Welcomeplaynow"))).click();
-
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(p.getProperty("Dashboardwallet"))));
-
-		driver.findElement(By.xpath(p.getProperty("Userdropdown"))).click();
-
-		driver.findElement(By.xpath(p.getProperty("Logout"))).click();
-
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(p.getProperty("Loginbutton"))));
-
-	}
+	
 
 	@Test(enabled = false, priority = 1)
 	public void LoginWelcomeForgot() throws IOException {

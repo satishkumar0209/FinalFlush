@@ -25,16 +25,6 @@ public WebDriver driver;
 		return driver.findElement(By.xpath("//*[text()='Logout']"));
 	}
 	
-	public static WebElement Welcomepassword(WebDriver driver)
-	{
-		return driver.findElement(By.xpath("//*[@placeholder='Password']"));
-	}
-	
-	public static WebElement Welcomeplaynow(WebDriver driver)
-	{
-		return driver.findElement(By.xpath("//*[text()='Play Now']"));
-	}
-	
 	
 	
 	

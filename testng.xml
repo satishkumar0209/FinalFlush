@@ -17,5 +17,16 @@
       <class name="com.Flush.Tests.LoginPopupTest"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Flush.Tests.VipTestcases"/>
+    </classes>
+    </test> <!-- Test -->
+     <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.Flush.Tests.HomePageWithoutLoginTestcases"/>
+    </classes>
+  </test> 
+    
 
 </suite> <!-- Suite -->

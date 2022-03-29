@@ -4,15 +4,14 @@
   <listeners>
     <listener class-name="com.Flush.Tests.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Home Page Test(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="com.Flush.Tests.HomepageTest">
+      <class name="com.Flush.Tests.HomePageWithoutLoginTestcases">
         <methods>
-          <include name="Loginasvaliduser"/>
+          <include name="HiloGame"/>
           <include name="Initialization"/>
-          <include name="EndTest"/>
         </methods>
-      </class> <!-- com.Flush.Tests.HomepageTest -->
+      </class> <!-- com.Flush.Tests.HomePageWithoutLoginTestcases -->
     </classes>
-  </test> <!-- Home Page Test(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

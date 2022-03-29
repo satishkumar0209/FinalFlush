@@ -39,7 +39,7 @@ public class HomepageTest extends BaseClass {
 		driver.get(baseURL);
 	}
 
-	@Test(enabled = true, priority = 1)
+	@Test(enabled = false, priority = 1)
 	public void LoginAsValidUser() throws IOException {
 
 		wait = new WebDriverWait(driver, 50);

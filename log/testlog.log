@@ -588,3 +588,53 @@
 2022-03-28 14:46:54,953 - flush -INFO - Browser closed
 2022-03-28 15:29:52,978 - flush -INFO - Login button clicked successfully
 2022-03-28 15:30:12,786 - flush -INFO - Browser closed
+2022-03-29 15:12:20,894 - flush -INFO - Login button clicked successfully
+2022-03-29 15:37:46,249 - flush -INFO - Login button clicked successfully
+2022-03-29 15:37:47,065 - flush -INFO - Email entered successfully
+2022-03-29 15:37:47,720 - flush -INFO - Password Entered successfully
+2022-03-29 15:37:47,914 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 15:41:11,398 - flush -INFO - Login button clicked successfully
+2022-03-29 15:41:12,348 - flush -INFO - Email entered successfully
+2022-03-29 15:41:12,517 - flush -INFO - Password Entered successfully
+2022-03-29 15:41:12,731 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 15:41:37,186 - flush -INFO - Wallet button visible
+2022-03-29 15:41:37,639 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:04:52,105 - flush -INFO - Login button clicked successfully
+2022-03-29 16:04:53,159 - flush -INFO - Email entered successfully
+2022-03-29 16:04:53,390 - flush -INFO - Password Entered successfully
+2022-03-29 16:04:53,591 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 16:05:22,754 - flush -INFO - Wallet button visible
+2022-03-29 16:05:23,014 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:05:23,635 - flush -INFO - Loyality link clicked successfully
+2022-03-29 16:11:14,781 - flush -INFO - Login button clicked successfully
+2022-03-29 16:11:15,513 - flush -INFO - Email entered successfully
+2022-03-29 16:11:15,669 - flush -INFO - Password Entered successfully
+2022-03-29 16:11:15,920 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 16:11:44,743 - flush -INFO - Wallet button visible
+2022-03-29 16:11:44,991 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:11:46,147 - flush -INFO - Loyality link clicked successfully
+2022-03-29 16:11:47,049 - flush -INFO - Loyality Header text  visible successfully
+2022-03-29 16:23:50,317 - flush -INFO - Login button clicked successfully
+2022-03-29 16:23:51,354 - flush -INFO - Email entered successfully
+2022-03-29 16:23:51,559 - flush -INFO - Password Entered successfully
+2022-03-29 16:23:52,071 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 16:24:41,390 - flush -INFO - Wallet button visible
+2022-03-29 16:24:41,718 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:24:45,762 - flush -INFO - Loyality link clicked successfully
+2022-03-29 16:27:33,070 - flush -INFO - Login button clicked successfully
+2022-03-29 16:27:33,533 - flush -INFO - Email entered successfully
+2022-03-29 16:27:33,710 - flush -INFO - Password Entered successfully
+2022-03-29 16:27:34,213 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 16:27:54,004 - flush -INFO - Wallet button visible
+2022-03-29 16:27:54,330 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:28:01,698 - flush -INFO - Loyality link clicked successfully
+2022-03-29 16:28:02,787 - flush -INFO - Loyality Header text  visible successfully
+2022-03-29 16:29:25,316 - flush -INFO - Login button clicked successfully
+2022-03-29 16:29:26,443 - flush -INFO - Email entered successfully
+2022-03-29 16:29:26,716 - flush -INFO - Password Entered successfully
+2022-03-29 16:29:26,987 - flush -INFO - PlayNow button clicked successfully
+2022-03-29 16:29:42,523 - flush -INFO - Wallet button visible
+2022-03-29 16:29:42,770 - flush -INFO - Dropdown button clicked successfully
+2022-03-29 16:29:50,109 - flush -INFO - Loyality link clicked successfully
+2022-03-29 16:29:50,242 - flush -INFO - Vip link clicked successfully
+2022-03-29 16:29:51,477 - flush -INFO - Scrolled to Rewards Text

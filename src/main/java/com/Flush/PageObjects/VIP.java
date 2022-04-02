@@ -38,4 +38,11 @@ public class VIP {
 	{
 		return driver.findElement(By.xpath("//*[text()='REWARDS']"));
 	} 
+	
+	
+	
+	public static WebElement TotalPointsSection(WebDriver driver)
+	{
+		return driver.findElement(By.xpath("//*[@class='Header__HeadEl3-sc-jdyd2k-4 kRAglQ']"));
+	} 
 }

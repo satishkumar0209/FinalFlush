@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Cashier {
+public class CashierPage {
 public WebDriver driver;
 	
 	public static WebElement element;
 
-	public Cashier(WebDriver driver) 
+	public CashierPage(WebDriver driver) 
 	{
 		this.driver=driver;
 	}

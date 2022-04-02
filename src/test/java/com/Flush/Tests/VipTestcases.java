@@ -13,7 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.Flush.PageObjects.AccountDropdown;
 import com.Flush.PageObjects.DashboardPage;
+import com.Flush.PageObjects.DiceGamePage;
 import com.Flush.PageObjects.Homepage;
 import com.Flush.PageObjects.VIP;
 import com.Flush.PageObjects.WelcomePopup;
@@ -123,7 +125,7 @@ public class VipTestcases extends BaseClass {
 		log.info("Loyality link clicked successfully");
 
 		VIP.DropdownVipLink(driver).click();
-		
+
 		log.info("Vip link clicked successfully");
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -131,14 +133,63 @@ public class VipTestcases extends BaseClass {
 		WebElement Rewards = VIP.Rewards(driver);
 
 		js.executeScript("arguments[0].scrollIntoView();", Rewards);
-		
+
 		log.info("Scrolled to Rewards Text");
 
 		VIP.ClaimRewardstab(driver).click();
 
 		VIP.Rewards(driver).click();
-		
+
 		VIP.ClaimRewardstab(driver).click();
+
+	}
+
+	@Test(enabled = true)
+	public void name() throws IOException {
+
+		Properties p = new Properties();
+
+		FileInputStream fi = new FileInputStream(".//FlushProperties//Flush.properties");
+
+		p.load(fi);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		log.info("Login button clicked successfully");
+
+		Homepage page = new Homepage(driver);
+
+		page.Login(driver);
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='WALLET']")));
+
+		Homepage.WalletBalanceDropdown(driver).click();
+
+		Homepage.WalletBalanceDropdownBTC(driver).click();
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys("0.00021");
+
+		DiceGamePage.BetButton(driver).click();
+
+		DashboardPage.Userdropdown(driver).click();
+
+		AccountDropdown.VIP(driver).click();
+
+		WebElement TotalPoints = VIP.TotalPointsSection(driver);
+
+		String Points = TotalPoints.getAttribute("innerText");
+
+		System.out.println("Total points " + Points);
+		
+		String str= Points;
+		
+		
 
 	}
 }

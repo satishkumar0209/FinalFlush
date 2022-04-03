@@ -2,6 +2,7 @@ package com.Flush.Tests;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -41,6 +42,8 @@ public class HomepageTest extends BaseClass {
 
 	@Test(enabled = false, priority = 1)
 	public void LoginAsValidUser() throws IOException {
+		
+		
 
 		wait = new WebDriverWait(driver, 50);
 
@@ -60,7 +63,7 @@ public class HomepageTest extends BaseClass {
 
 	}
 	
-	@Test(enabled = false, priority = 1)
+	@Test(enabled = true, priority = 1)
 	public void UserLoginLogout() throws IOException {
 
 		Homepage.Loginbutton(driver).click();
@@ -83,6 +86,7 @@ public class HomepageTest extends BaseClass {
 
 	@Test(enabled = false, priority = 1)
 	public void Logout() throws IOException {
+		
 		Properties p = new Properties();
 
 		FileInputStream fi = new FileInputStream(".//Flush.properties");

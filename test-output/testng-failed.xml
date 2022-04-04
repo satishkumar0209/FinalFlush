@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Flush.Tests.VipTestcases">
         <methods>
+          <include name="ChooseYourPasswordSecondRadioButton"/>
           <include name="Initialization"/>
-          <include name="name"/>
         </methods>
       </class> <!-- com.Flush.Tests.VipTestcases -->
     </classes>

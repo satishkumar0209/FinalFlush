@@ -66,7 +66,7 @@ public class LoginThroughGamePageTestCases extends BaseClass {
 
 		page.Scroll(driver);
 
-		Homepage.Dice(driver).click();
+		Homepage.DiceGame(driver).click();
 
 		Gamepage.BetButton(driver).click();
 

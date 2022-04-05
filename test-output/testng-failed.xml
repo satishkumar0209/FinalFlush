@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Flush.Tests.VipTestcases">
+      <class name="com.Flush.Tests.DiceGameTestcases">
         <methods>
-          <include name="ChooseYourPasswordSecondRadioButton"/>
+          <include name="LoginAsValidUser"/>
           <include name="Initialization"/>
         </methods>
-      </class> <!-- com.Flush.Tests.VipTestcases -->
+      </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

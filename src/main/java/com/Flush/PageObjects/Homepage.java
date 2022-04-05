@@ -37,7 +37,7 @@ public class Homepage {
 		return driver.findElement(By.xpath("(//*[text()='Flush Originals'])[3]"));
 	}
 
-	public static WebElement Dice(WebDriver driver) {
+	public static WebElement DiceGame(WebDriver driver) {
 		return driver.findElement(By.xpath("(//*[text()='Dice'])[1]"));
 	}
 
@@ -58,7 +58,7 @@ public class Homepage {
 	}
 
 	public static WebElement WalletBalanceDropdown(WebDriver driver) {
-		return driver.findElement(By.xpath("//*[@class='DepositSection__BalanceNumber-sc-14n4hii-7 ivaMjz']"));
+		return driver.findElement(By.xpath("//*[@class=\"DepositSection__BalanceNumber-sc-14n4hii-7 ivaMjz\"]"));
 	}
 
 	public static WebElement WalletBalanceDropdownETH(WebDriver driver) {

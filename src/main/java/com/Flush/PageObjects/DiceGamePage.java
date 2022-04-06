@@ -76,5 +76,15 @@ public class DiceGamePage {
 	public static WebElement FAIRNESSNextserverseed(WebDriver driver) {
 		return driver.findElement(By.xpath("(//*[@class='CustomInput__MainInput-sc-1o4ngjx-6 cKzgzb'])[4]"));
 	}
-
+	
+			public static WebElement HalfAmount(WebDriver driver) {
+				return driver.findElement(By.xpath("(//*[@class='DiceSidebar__InputButtonV1-sc-4stjuu-6 flNWZT'])[1]"));
+			}
+			public static WebElement DoubleAmount(WebDriver driver) {
+				return driver.findElement(By.xpath("(//*[@class='DiceSidebar__InputButtonV1-sc-4stjuu-6 flNWZT'])[2]"));
+			}
+			public static WebElement ProfitOnWinInputBox(WebDriver driver) {
+				return driver.findElement(By.xpath("(//*[@class='LabelInput__MainInput-sc-zkip7h-6 jMmTxe'])[2]"));
+			}
+			
 }

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Flush.Tests.DiceGameTestcases">
         <methods>
-          <include name="LoginAsValidUser"/>
           <include name="Initialization"/>
+          <include name="DiceGameBet"/>
         </methods>
       </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </classes>

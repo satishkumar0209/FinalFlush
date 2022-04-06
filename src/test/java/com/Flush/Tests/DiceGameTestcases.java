@@ -1,6 +1,7 @@
 package com.Flush.Tests;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -55,51 +57,133 @@ public class DiceGameTestcases extends BaseClass {
 		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Dice'])[1]")));
 
 		// Homepage.DiceGame(driver).click();
-		
-		
-		WebElement Walletbalance=Homepage.WalletBalanceDropdown(driver);
-		
+
+		WebElement Walletbalance = Homepage.WalletBalanceDropdown(driver);
+
 		String Totalmoney = Walletbalance.getAttribute("innerText");
-		
-		System.out.println("=========="+Totalmoney);
-		
-		String walletmoney = Totalmoney;
 
-		float f = Float.parseFloat(walletmoney);
+		double WalletAmount = new Double(Totalmoney);
+
+		BigDecimal DashboardWalletAmount = BigDecimal.valueOf(WalletAmount);
+
+		System.out.println("Total Amount in you wallet =  " + DashboardWalletAmount);
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys(Keys.CONTROL, "a");
+
+		Amount.sendKeys(Keys.DELETE);
+
+		Amount.sendKeys("0.0000100");
+
+		Double BetAmount = 0.0000100;
+
+		DiceGamePage.BetButton(driver).click();
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 joejdF']")));
+
+		WebElement DiceResultNumber = DiceGamePage.LatestResultDiceGame(driver);
+
+		String Dicenumber = DiceResultNumber.getAttribute("innerText");
+
+		System.out.println("Dice break number  =" + Dicenumber);
+
+		double checkdice = Double.parseDouble(Dicenumber);
+
+		if (checkdice > 50) {
+
+			System.out.println("User Win the Dice game ");
+
+			double Balanceamount = (WalletAmount + BetAmount);
+
+			// System.out.println("Dice Game Win after total Amount in you wallet = " +
+			// Balanceamount);
+
+			String s1 = String.format("%.8f", Balanceamount);
+
+			System.out.println("Dice Game Win after total Amount in you wallet = " + s1);
+
+			WebElement Walletbalance1 = Homepage.WalletBalanceDropdown(driver);
+
+			String Totalmoney1 = Walletbalance1.getAttribute("innerText");
+
+//			System.out.println("Getting calculation ouptput "+ s1);
+//			
+//			System.out.println("Getting dashboard amount "+ Totalmoney1);
+
+			Assert.assertEquals(s1, Totalmoney1);
+
+			System.out.println("Test case pass");
+
+		} else {
+			System.out.println("User Loss the Dice game ");
+
+			double Balanceamount = (WalletAmount - BetAmount);
+
+			// System.out.println("Dice Game Loss after total Amount in you wallet = " +
+			// Balanceamount);
+
+			String s2 = String.format("%.8f", Balanceamount);
+
+			System.out.println("Dice Game Loss after total Amount in you wallet = " + s2);
+
+			WebElement Walletbalance2 = Homepage.WalletBalanceDropdown(driver);
+
+			String Totalmoney2 = Walletbalance2.getAttribute("innerText");
+
+//			System.out.println("Getting calculation ouptput "+ s2);
+//			
+//			System.out.println("Getting dashboard amount "+ Totalmoney2);
+
+			Assert.assertEquals(s2, Totalmoney2);
+
+			System.out.println("Test case pass");
+		}
+		WebElement statics = DiceGamePage.MyBets(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", statics);
 		
-		System.out.println("++++++++++++"+f);
-//
-//		System.out.println(String.format("%.8f", f));
+		DiceGamePage.MyBets(driver).click();
+		
+		DiceGamePage.MyBetsLatestDice(driver).click();
+		
+		DiceGamePage.BetPopup(driver).click();
+		
+		Thread.sleep(4000);
+		
+		// Getting first server seed
+		
+		WebElement Activeserverseed = DiceGamePage.FAIRNESSActiveserverseed(driver);
 
-//		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
-//
-//		Amount.sendKeys(Keys.CONTROL, "a");
-//		
-//		Amount.sendKeys(Keys.DELETE);
-//
-//		Amount.sendKeys("0.000021");
+		String Serverseed = Activeserverseed.getAttribute("value");
+		
+		System.out.println("Server seed=  " + Serverseed);
+		
+		// Getting Next server Seed
+		
+		WebElement Nextserverseed = DiceGamePage.FAIRNESSNextserverseed(driver);
 
-//		DiceGamePage.BetButton(driver).click();
-//
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(
-//				By.xpath("//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 joejdF']")));
-//
-//		WebElement DiceResultNumber = DiceGamePage.LatestResultDiceGame(driver);
-//
-//		String Dicenumber = DiceResultNumber.getAttribute("innerText");
-//
-//		System.out.println("Dice break number  =" + Dicenumber);
-//
-//		double checkdice = Double.parseDouble(Dicenumber);
-//		
-//		if(checkdice>50)
-//		{
-//			System.out.println("Dice game Win ");
-//		}
-//		else
-//		{
-//			System.out.println("Dice game Loss ");
-//		}
+		String ServerseedNext = Nextserverseed.getAttribute("value");
+		
+		System.out.println("Next server seed =  " + ServerseedNext);
+		
+		// Click on changing button
+		
+		DiceGamePage.FAIRNESSChangeButton(driver).click();
+		
+		// After changing the server seed getting 
+		
+		WebElement Activeserverseed1 = DiceGamePage.FAIRNESSActiveserverseed(driver);
+
+		String Serverseed1 = Activeserverseed1.getAttribute("value");
+		
+		System.out.println("Latest Active seed =  " + Serverseed1);
+		
+	//	System.out.println("Next =  " + Nextserverseed);
+		
+		
+		
 
 	}
 
@@ -152,7 +236,7 @@ public class DiceGameTestcases extends BaseClass {
 
 		DiceGamePage.DiceGameRulesCrossIcon(driver).click();
 	}
-	
+
 	@Test(enabled = false, priority = 1)
 	public void DiceGameLiveStatusButton() throws IOException, InterruptedException {
 
@@ -177,7 +261,7 @@ public class DiceGameTestcases extends BaseClass {
 		DiceGamePage.DiceGameLiveStatusIcon(driver).click();
 
 	}
-	
+
 	@Test(enabled = false, priority = 1)
 	public void DiceGameFairNessbutton() throws IOException, InterruptedException {
 
@@ -202,7 +286,7 @@ public class DiceGameTestcases extends BaseClass {
 		DiceGamePage.DiceGameFairnessIcon(driver).click();
 
 	}
-	
+
 	@Test(enabled = false, priority = 1)
 	public void DiceGameAutoButtonTab() throws IOException, InterruptedException {
 
@@ -227,6 +311,5 @@ public class DiceGameTestcases extends BaseClass {
 		DiceGamePage.DiceGameAutoButton(driver).click();
 
 	}
-	
-	
+
 }

@@ -600,7 +600,7 @@ public class DiceGameTestcases extends BaseClass {
 
 	}
 
-	@Test(enabled = true, priority = 1)
+	@Test(enabled = false, priority = 1)
 	public void DiceGameAutoButtonTab() throws IOException, InterruptedException {
 
 		Homepage page = new Homepage(driver);
@@ -663,5 +663,194 @@ public class DiceGameTestcases extends BaseClass {
 		log.info("Stop Button Clicked Successfully");
 
 	}
+	@Test(enabled = false, priority = 1)
+	public void DiceGameAutoHalfAmount() throws IOException, InterruptedException {
+
+		Homepage page = new Homepage(driver);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		log.info("Login Button clicked successfully");
+
+		page.Login(driver);
+
+		log.info("Login Successfully with valid username and valid Password ");
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
+		
+		Thread.sleep(4000);
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//*[@class='DiceSidebar__BettingVariantButton-sc-4stjuu-4 hCNjdI']")));
+
+		DiceGamePage.DiceGameAutoButton(driver).click();
+
+		log.info("Auto Button Tab Clicked Successfully ");
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys(Keys.CONTROL, "a");
+
+		log.info("Selecting all default amount successfully");
+
+		Amount.sendKeys(Keys.DELETE);
+
+		log.info("Deleted default Amount successfully");
+
+		Amount.sendKeys("0.00001000");
+
+		log.info("Entering some amount successfully");
+		
+		DiceGamePage.HalfAmount(driver).click();
+		
+		log.info("Half Amount Button Clicked Successfully");
+
+		DiceGamePage.AutoStartButton(driver).click();
+
+		log.info("Auto Start Clicked Successfully");
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("(//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 fnIlnE'])[4]")));
+
+		log.info("Waiting until 5 th dice Announce ");
+
+		DiceGamePage.StopAutoBettButton(driver).click();
+
+		log.info("Stop Button Clicked Successfully");
+
+	}
+	
+	@Test(enabled = false, priority = 1)
+	public void DiceGameAutoDoubleAmount() throws IOException, InterruptedException {
+
+		Homepage page = new Homepage(driver);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		log.info("Login Button clicked successfully");
+
+		page.Login(driver);
+
+		log.info("Login Successfully with valid username and valid Password ");
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
+		
+		Thread.sleep(4000);
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//*[@class='DiceSidebar__BettingVariantButton-sc-4stjuu-4 hCNjdI']")));
+
+		DiceGamePage.DiceGameAutoButton(driver).click();
+
+		log.info("Auto Button Tab Clicked Successfully ");
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys(Keys.CONTROL, "a");
+
+		log.info("Selecting all default amount successfully");
+
+		Amount.sendKeys(Keys.DELETE);
+
+		log.info("Deleted default amount successfully");
+
+		Amount.sendKeys("0.00001000");
+
+		log.info("Entering some amount successfully");
+		
+		DiceGamePage.DoubleAmount(driver).click();
+		
+		log.info("2X Amount Button Clicked Successfully");
+
+		DiceGamePage.AutoStartButton(driver).click();
+
+		log.info("Auto Start Clicked Successfully");
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("(//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 fnIlnE'])[4]")));
+
+		log.info("Waiting until 5 th dice Announce ");
+
+		DiceGamePage.StopAutoBettButton(driver).click();
+
+		log.info("Stop Button Clicked Successfully");
+
+	}
+
+	@Test(enabled = false, priority = 1)
+	public void DiceGameAutoNumberOfBetsThree() throws IOException, InterruptedException {
+
+		Homepage page = new Homepage(driver);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		log.info("Login Button clicked successfully");
+
+		page.Login(driver);
+
+		log.info("Login Successfully with valid username and valid Password ");
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
+		
+		Thread.sleep(4000);
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//*[@class='DiceSidebar__BettingVariantButton-sc-4stjuu-4 hCNjdI']")));
+
+		DiceGamePage.DiceGameAutoButton(driver).click();
+
+		log.info("Auto Button Tab Clicked Successfully ");
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys(Keys.CONTROL, "a");
+
+		log.info("Selecting all default amount successfully");
+
+		Amount.sendKeys(Keys.DELETE);
+
+		log.info("Deleted default amount successfully");
+
+		Amount.sendKeys("0.00001000");
+
+		log.info("Entering some amount successfully");
+		
+		DiceGamePage.NoOfBETSButton(driver).sendKeys("3");
+		
+		log.info("No of Bets passing 3");
+
+		DiceGamePage.AutoStartButton(driver).click();
+
+		log.info("Auto Start Clicked Successfully");
+
+	}
+
 
 }

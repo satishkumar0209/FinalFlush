@@ -726,3 +726,12 @@
 2022-04-07 12:43:28,407 [main] INFO flush - Auto Start Clicked Successfully
 2022-04-07 12:43:37,192 [main] INFO flush - Waiting until 5 th dice Announce 
 2022-04-07 12:43:37,695 [main] INFO flush - Stop Button Clicked Successfully
+2022-04-07 16:12:56,405 [main] INFO flush - Login Button clicked successfully
+2022-04-07 16:12:57,290 [main] INFO flush - Login Successfully with valid username and valid Password 
+2022-04-07 16:13:41,440 [main] INFO flush - Auto Button Tab Clicked Successfully 
+2022-04-07 16:13:42,105 [main] INFO flush - Selecting all default amount successfully
+2022-04-07 16:13:42,260 [main] INFO flush - Deleted default amount successfully
+2022-04-07 16:13:42,420 [main] INFO flush - Entering some amount successfully
+2022-04-07 16:13:43,017 [main] INFO flush - Auto Start Clicked Successfully
+2022-04-07 16:13:51,520 [main] INFO flush - Waiting until 5 th dice Announce 
+2022-04-07 16:13:51,912 [main] INFO flush - Stop Button Clicked Successfully

@@ -92,20 +92,21 @@ public class DiceGamePage {
 	public static WebElement MaxButton(WebDriver driver) {
 		return driver.findElement(By.xpath("//*[text()='(Max - ']"));
 	}
-	
+
 	public static WebElement InsufficientErrorMessage(WebDriver driver) {
 		return driver.findElement(By.xpath("//*[@class='Snackbar__MessagwWrapper-sc-g1jq3j-3 fdJrMO']"));
 	}
-	
+
 	public static WebElement AutoStartButton(WebDriver driver) {
 		return driver.findElement(By.xpath("//*[text()='START AUTOBET']"));
 	}
-	
+
 	public static WebElement StopAutoBettButton(WebDriver driver) {
 		return driver.findElement(By.xpath("//*[text()='STOP AUTOBET']"));
 	}
-	
-	
-	
+
+	public static WebElement NoOfBETSButton(WebDriver driver) {
+		return driver.findElement(By.xpath("(//*[@class='LabelInput__MainInput-sc-zkip7h-6 jMmTxe'])[2]"));
+	}
 
 }

@@ -692,3 +692,37 @@
 2022-04-07 11:34:40,281 - flush -INFO - Max Button Clicked successfully
 2022-04-07 11:34:40,952 - flush -INFO - Bet Button Clicked Successfully
 2022-04-07 11:34:41,655 - flush -INFO - Getting Error Message Text Successfully
+2022-04-07 12:00:02,166 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:00:04,896 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:00:14,945 - flush -INFO - Auto Button Tab Clicked Successfully 
+2022-04-07 12:00:15,600 - flush -INFO - Selecting all default amount successfully
+2022-04-07 12:00:15,663 - flush -INFO - Deleted default amount successfully
+2022-04-07 12:00:15,898 - flush -INFO - Entering some amount successfully
+2022-04-07 12:00:16,241 - flush -INFO - Auto Start Clicked Successfully
+2022-04-07 12:22:27,534 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:22:29,373 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:31:47,761 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:31:49,925 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:31:59,448 - flush -INFO - Auto Button Tab Clicked Successfully 
+2022-04-07 12:31:59,773 - flush -INFO - Selecting all default amount successfully
+2022-04-07 12:31:59,859 - flush -INFO - Deleted default amount successfully
+2022-04-07 12:32:00,682 - flush -INFO - Entering some amount successfully
+2022-04-07 12:32:01,135 - flush -INFO - Auto Start Clicked Successfully
+2022-04-07 12:35:04,493 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:35:09,218 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:35:42,726 - flush -INFO - Auto Button Tab Clicked Successfully 
+2022-04-07 12:35:43,031 - flush -INFO - Selecting all default amount successfully
+2022-04-07 12:35:43,275 - flush -INFO - Deleted default amount successfully
+2022-04-07 12:35:43,592 - flush -INFO - Entering some amount successfully
+2022-04-07 12:35:44,242 - flush -INFO - Auto Start Clicked Successfully
+2022-04-07 12:39:46,322 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:39:47,349 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:42:59,722 - flush -INFO - Login Button clicked successfully
+2022-04-07 12:43:01,143 - flush -INFO - Login Successfully with valid username and valid Password 
+2022-04-07 12:43:27,213 - flush -INFO - Auto Button Tab Clicked Successfully 
+2022-04-07 12:43:27,709 - flush -INFO - Selecting all default amount successfully
+2022-04-07 12:43:27,915 - flush -INFO - Deleted default amount successfully
+2022-04-07 12:43:28,118 - flush -INFO - Entering some amount successfully
+2022-04-07 12:43:28,407 - flush -INFO - Auto Start Clicked Successfully
+2022-04-07 12:43:37,192 - flush -INFO - Waiting until 5 th dice Announce 
+2022-04-07 12:43:37,695 - flush -INFO - Stop Button Clicked Successfully

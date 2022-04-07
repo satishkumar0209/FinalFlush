@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121467" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:41 IST">
+  <suite name="Default suite" duration-ms="117849" started-at="2022-04-07T12:41:39 IST" finished-at="2022-04-07T12:43:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121467" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:41 IST">
+    <test name="Default test" duration-ms="117849" started-at="2022-04-07T12:41:39 IST" finished-at="2022-04-07T12:43:37 IST">
       <class name="com.Flush.Tests.DiceGameTestcases">
-        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="Initialization" is-config="true" duration-ms="101413" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:21 IST">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="Initialization" is-config="true" duration-ms="79174" started-at="2022-04-07T12:41:39 IST" finished-at="2022-04-07T12:42:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="MAximumErrorMessageChecking()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="MAximumErrorMessageChecking" duration-ms="19723" started-at="2022-04-07T11:34:21 IST" finished-at="2022-04-07T11:34:41 IST">
+        <test-method status="PASS" signature="DiceGameAutoButtonTab()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="DiceGameAutoButtonTab" duration-ms="38589" started-at="2022-04-07T12:42:59 IST" finished-at="2022-04-07T12:43:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MAximumErrorMessageChecking -->
+        </test-method> <!-- DiceGameAutoButtonTab -->
       </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

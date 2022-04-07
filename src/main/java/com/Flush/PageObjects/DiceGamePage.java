@@ -97,6 +97,15 @@ public class DiceGamePage {
 		return driver.findElement(By.xpath("//*[@class='Snackbar__MessagwWrapper-sc-g1jq3j-3 fdJrMO']"));
 	}
 	
+	public static WebElement AutoStartButton(WebDriver driver) {
+		return driver.findElement(By.xpath("//*[text()='START AUTOBET']"));
+	}
+	
+	public static WebElement StopAutoBettButton(WebDriver driver) {
+		return driver.findElement(By.xpath("//*[text()='STOP AUTOBET']"));
+	}
+	
+	
 	
 
 }

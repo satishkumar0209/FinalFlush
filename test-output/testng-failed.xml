@@ -6,7 +6,7 @@
       <class name="com.Flush.Tests.DiceGameTestcases">
         <methods>
           <include name="Initialization"/>
-          <include name="HalfAmount"/>
+          <include name="DiceGameDoubleBetAmount"/>
         </methods>
       </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </classes>

@@ -47,11 +47,9 @@ public class DiceGameTestcases extends BaseClass {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
-		
-		
 
 		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
-		
+
 		log.info("Scrolling up to original headers");
 
 		Thread.sleep(4000);
@@ -65,11 +63,11 @@ public class DiceGameTestcases extends BaseClass {
 		WebElement Walletbalance = Homepage.WalletBalanceDropdown(driver);
 
 		String Totalmoney = Walletbalance.getAttribute("innerText");
-		
+
 		log.info("Getting wallet baalnce successfully ");
 
 		double WalletAmount = new Double(Totalmoney);
-		
+
 		log.info("String value converting into decimal");
 
 		BigDecimal DashboardWalletAmount = BigDecimal.valueOf(WalletAmount);
@@ -79,39 +77,38 @@ public class DiceGameTestcases extends BaseClass {
 		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
 
 		Amount.sendKeys(Keys.CONTROL, "a");
-		
+
 		log.info("Selecting all default amount successfully");
 
 		Amount.sendKeys(Keys.DELETE);
-		
+
 		log.info("Deleted default amount successfully");
 
 		Amount.sendKeys("0.0000100");
-		
+
 		log.info("Entering some amount successfully");
 
 		Double BetAmount = 0.0000100;
 
 		DiceGamePage.BetButton(driver).click();
-		
+
 		log.info("Bet button clicked successfully");
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(
 				By.xpath("//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 joejdF']")));
-		
+
 		log.info("Checking dice value");
 
 		WebElement DiceResultNumber = DiceGamePage.LatestResultDiceGame(driver);
 
 		String Dicenumber = DiceResultNumber.getAttribute("innerText");
-		
+
 		log.info("Getting dice number successfully through string format");
-		
 
 		System.out.println("Dice break number  =" + Dicenumber);
 
 		double checkdice = Double.parseDouble(Dicenumber);
-		
+
 		log.info("Converting string dice number in to number successfully");
 
 		if (checkdice > 50) {
@@ -211,7 +208,7 @@ public class DiceGameTestcases extends BaseClass {
 
 	}
 
-	@Test(enabled = true, priority = 1)
+	@Test(enabled = false, priority = 1)
 	public void HalfAmount() throws IOException, InterruptedException {
 
 		Homepage page = new Homepage(driver);
@@ -266,15 +263,15 @@ public class DiceGameTestcases extends BaseClass {
 
 		System.out.println("=============" + WinProfit);
 
-		//BigDecimal num = new BigDecimal(WinProfit);
-		
-		//System.out.println("Converted String to BigDecimal : " + num);
+		// BigDecimal num = new BigDecimal(WinProfit);
+
+		// System.out.println("Converted String to BigDecimal : " + num);
 
 		double str1 = Double.parseDouble(WinProfit);
 
-		System.out.println("+++++++++++"+ str1);
+		System.out.println("+++++++++++" + str1);
 
-		//BigDecimal OnWinProfit = BigDecimal.valueOf(num);
+		// BigDecimal OnWinProfit = BigDecimal.valueOf(num);
 
 //		System.out.println("Profit on Win =" + OnWinProfit);
 //
@@ -322,6 +319,132 @@ public class DiceGameTestcases extends BaseClass {
 
 //			
 //
+	}
+
+	@Test(enabled = true, priority = 1)
+	public void DiceGameDoubleBetAmount() throws IOException, InterruptedException {
+
+		Homepage page = new Homepage(driver);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		page.Login(driver);
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
+
+		Thread.sleep(4000);
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+		
+		WebElement Walletbalance = Homepage.WalletBalanceDropdown(driver);
+
+		String Totalmoney = Walletbalance.getAttribute("innerText");
+
+		log.info("Getting wallet baalnce successfully ");
+
+		double WalletAmount = new Double(Totalmoney);
+
+		log.info("String value converting into decimal");
+
+		BigDecimal DashboardWalletAmount = BigDecimal.valueOf(WalletAmount);
+
+		System.out.println("Total Amount in you wallet =  " + DashboardWalletAmount);
+
+		WebElement Amount = DiceGamePage.BetAmountinputField(driver);
+
+		Amount.sendKeys(Keys.CONTROL, "a");
+
+		log.info("Selecting all default amount successfully");
+
+		Amount.sendKeys(Keys.DELETE);
+
+		log.info("Deleted default amount successfully");
+
+		Amount.sendKeys("0.00001000");
+
+		log.info("Entering some amount successfully");
+
+		Double BetAmount = 0.00002000;
+		
+		DiceGamePage.DoubleAmount(driver).click();
+		
+		log.info("2x Button clicked successfully");
+		
+		DiceGamePage.BetButton(driver).click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 joejdF']")));
+
+		log.info("Checking dice value");
+
+		WebElement DiceResultNumber = DiceGamePage.LatestResultDiceGame(driver);
+
+		String Dicenumber = DiceResultNumber.getAttribute("innerText");
+
+		log.info("Getting dice number successfully through string format");
+
+		System.out.println("Dice break number  =" + Dicenumber);
+
+		double checkdice = Double.parseDouble(Dicenumber);
+
+		log.info("Converting string dice number in to number successfully");
+
+		if (checkdice > 50) {
+
+			System.out.println("User Win the Dice game ");
+
+			double Balanceamount = (WalletAmount + BetAmount);
+
+			// System.out.println("Dice Game Win after total Amount in you wallet = " +
+			// Balanceamount);
+
+			String s1 = String.format("%.8f", Balanceamount);
+
+			System.out.println("Dice Game Win after total Amount in you wallet = " + s1);
+
+			WebElement Walletbalance1 = Homepage.WalletBalanceDropdown(driver);
+
+			String Totalmoney1 = Walletbalance1.getAttribute("innerText");
+
+//			System.out.println("Getting calculation ouptput "+ s1);
+//			
+//			System.out.println("Getting dashboard amount "+ Totalmoney1);
+
+			Assert.assertEquals(s1, Totalmoney1);
+
+			System.out.println("Test case pass");
+
+		} else {
+			System.out.println("User Loss the Dice game ");
+
+			double Balanceamount = (WalletAmount - BetAmount);
+
+			// System.out.println("Dice Game Loss after total Amount in you wallet = " +
+			// Balanceamount);
+
+			String s2 = String.format("%.8f", Balanceamount);
+
+			System.out.println("Dice Game Loss after total Amount in you wallet = " + s2);
+
+			WebElement Walletbalance2 = Homepage.WalletBalanceDropdown(driver);
+
+			String Totalmoney2 = Walletbalance2.getAttribute("innerText");
+
+//			System.out.println("Getting calculation ouptput "+ s2);
+//			
+//			System.out.println("Getting dashboard amount "+ Totalmoney2);
+
+			Assert.assertEquals(s2, Totalmoney2);
+
+			System.out.println("Test case pass");
+		}
+
 	}
 
 	@Test(enabled = false, priority = 1)

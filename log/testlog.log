@@ -655,3 +655,31 @@
 2022-04-04 23:27:41,138 - flush -INFO - Login button clicked successfully
 2022-04-04 23:33:25,460 - flush -INFO - Login button clicked successfully
 2022-04-04 23:35:00,587 - flush -INFO - Login button clicked successfully
+2022-04-07 10:25:57,181 - flush -INFO - Scrolling up to original headers
+2022-04-07 10:26:13,792 - flush -INFO - Getting wallet baalnce successfully 
+2022-04-07 10:26:13,793 - flush -INFO - String value converting into decimal
+2022-04-07 10:26:14,206 - flush -INFO - Selecting all default amount successfully
+2022-04-07 10:26:14,320 - flush -INFO - Deleted default amount successfully
+2022-04-07 10:26:14,449 - flush -INFO - Entering some amount successfully
+2022-04-07 10:26:14,748 - flush -INFO - Bet button clicked successfully
+2022-04-07 10:26:31,510 - flush -INFO - Checking dice value
+2022-04-07 10:26:31,551 - flush -INFO - Getting dice number successfully through string format
+2022-04-07 10:26:31,552 - flush -INFO - Converting string dice number in to number successfully
+2022-04-07 10:41:48,427 - flush -INFO - Getting wallet baalnce successfully 
+2022-04-07 10:41:48,797 - flush -INFO - String value converting into decimal
+2022-04-07 10:41:49,036 - flush -INFO - Selecting all default amount successfully
+2022-04-07 10:41:49,172 - flush -INFO - Deleted default amount successfully
+2022-04-07 10:41:49,314 - flush -INFO - Entering some amount successfully
+2022-04-07 10:41:49,444 - flush -INFO - 2x Button clicked successfully
+2022-04-07 10:42:02,314 - flush -INFO - Checking dice value
+2022-04-07 10:42:02,357 - flush -INFO - Getting dice number successfully through string format
+2022-04-07 10:42:02,358 - flush -INFO - Converting string dice number in to number successfully
+2022-04-07 10:48:58,302 - flush -INFO - Getting wallet baalnce successfully 
+2022-04-07 10:48:58,504 - flush -INFO - String value converting into decimal
+2022-04-07 10:48:58,985 - flush -INFO - Selecting all default amount successfully
+2022-04-07 10:48:59,168 - flush -INFO - Deleted default amount successfully
+2022-04-07 10:48:59,391 - flush -INFO - Entering some amount successfully
+2022-04-07 10:48:59,704 - flush -INFO - 2x Button clicked successfully
+2022-04-07 10:49:13,434 - flush -INFO - Checking dice value
+2022-04-07 10:49:13,490 - flush -INFO - Getting dice number successfully through string format
+2022-04-07 10:49:13,490 - flush -INFO - Converting string dice number in to number successfully

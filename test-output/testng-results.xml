@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80128" started-at="2022-04-06T18:18:52 IST" finished-at="2022-04-06T18:20:12 IST">
+  <suite name="Default suite" duration-ms="93423" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:49:14 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80128" started-at="2022-04-06T18:18:52 IST" finished-at="2022-04-06T18:20:12 IST">
+    <test name="Default test" duration-ms="93423" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:49:14 IST">
       <class name="com.Flush.Tests.DiceGameTestcases">
-        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@5bcea91b]" name="Initialization" is-config="true" duration-ms="55285" started-at="2022-04-06T18:18:52 IST" finished-at="2022-04-06T18:19:47 IST">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="Initialization" is-config="true" duration-ms="54360" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:48:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="HalfAmount()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@5bcea91b]" name="HalfAmount" duration-ms="24732" started-at="2022-04-06T18:19:47 IST" finished-at="2022-04-06T18:20:12 IST">
+        <test-method status="PASS" signature="DiceGameDoubleBetAmount()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="DiceGameDoubleBetAmount" duration-ms="38936" started-at="2022-04-07T10:48:35 IST" finished-at="2022-04-07T10:49:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HalfAmount -->
+        </test-method> <!-- DiceGameDoubleBetAmount -->
       </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

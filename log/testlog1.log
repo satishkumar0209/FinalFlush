@@ -683,3 +683,12 @@
 2022-04-07 10:49:13,434 [main] INFO flush - Checking dice value
 2022-04-07 10:49:13,490 [main] INFO flush - Getting dice number successfully through string format
 2022-04-07 10:49:13,490 [main] INFO flush - Converting string dice number in to number successfully
+2022-04-07 11:26:35,036 [main] INFO flush - Login Button clicked successfully
+2022-04-07 11:26:38,050 [main] INFO flush - Login Successfully with valid username and valid Password 
+2022-04-07 11:27:18,669 [main] INFO flush - Max Button Clicked successfully
+2022-04-07 11:27:19,312 [main] INFO flush - Bet Button Clicked Successfully
+2022-04-07 11:34:24,076 [main] INFO flush - Login Button clicked successfully
+2022-04-07 11:34:25,807 [main] INFO flush - Login Successfully with valid username and valid Password 
+2022-04-07 11:34:40,281 [main] INFO flush - Max Button Clicked successfully
+2022-04-07 11:34:40,952 [main] INFO flush - Bet Button Clicked Successfully
+2022-04-07 11:34:41,655 [main] INFO flush - Getting Error Message Text Successfully

@@ -321,7 +321,7 @@ public class DiceGameTestcases extends BaseClass {
 //
 	}
 
-	@Test(enabled = true, priority = 1)
+	@Test(enabled = false, priority = 1)
 	public void DiceGameDoubleBetAmount() throws IOException, InterruptedException {
 
 		Homepage page = new Homepage(driver);
@@ -341,7 +341,7 @@ public class DiceGameTestcases extends BaseClass {
 		Thread.sleep(4000);
 
 		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
-		
+
 		WebElement Walletbalance = Homepage.WalletBalanceDropdown(driver);
 
 		String Totalmoney = Walletbalance.getAttribute("innerText");
@@ -371,13 +371,13 @@ public class DiceGameTestcases extends BaseClass {
 		log.info("Entering some amount successfully");
 
 		Double BetAmount = 0.00002000;
-		
+
 		DiceGamePage.DoubleAmount(driver).click();
-		
+
 		log.info("2x Button clicked successfully");
-		
+
 		DiceGamePage.BetButton(driver).click();
-		
+
 		wait.until(ExpectedConditions.visibilityOfElementLocated(
 				By.xpath("//*[@class='PastBetButton__PastBetButtonWrapper-sc-pe28g7-0 joejdF']")));
 
@@ -445,6 +445,58 @@ public class DiceGameTestcases extends BaseClass {
 			System.out.println("Test case pass");
 		}
 
+	}
+
+	@Test(enabled = true, priority = 1)
+	public void MAximumErrorMessageChecking() throws IOException, InterruptedException {
+
+		Homepage page = new Homepage(driver);
+
+		wait = new WebDriverWait(driver, 50);
+
+		Homepage.Loginbutton(driver).click();
+
+		log.info("Login Button clicked successfully");
+
+		page.Login(driver);
+
+		log.info("Login Successfully with valid username and valid Password ");
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		WebElement OriginalsHeader = Homepage.FlushOriginalsHeader(driver);
+
+		js.executeScript("arguments[0].scrollIntoView();", OriginalsHeader);
+
+		Thread.sleep(4000);
+
+		driver.get("https://pojy67209hjyfrthuopvshcnqoclpn.flush.com/games/dice");
+
+		DiceGamePage.MaxButton(driver).click();
+
+		log.info("Max Button Clicked successfully");
+
+		DiceGamePage.BetButton(driver).click();
+
+		log.info("Bet Button Clicked Successfully");
+		
+		WebElement ErrorMessage = DiceGamePage.InsufficientErrorMessage(driver);
+
+		String Message = ErrorMessage.getAttribute("innerText");
+		
+		log.info("Getting Error Message Text Successfully");
+
+		System.out.println(Message);
+
+		String str = Message;
+
+		str = str.replaceAll("\\s", "");
+
+		String ActualTitle = str;
+
+		String ExpectedTitle = "ErrorInsufficientbalance.";
+		
+		Assert.assertEquals(ActualTitle, ExpectedTitle);
 	}
 
 	@Test(enabled = false, priority = 1)

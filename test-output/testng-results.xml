@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+<testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93423" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:49:14 IST">
+  <suite name="Default suite" duration-ms="121467" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:41 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93423" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:49:14 IST">
+    <test name="Default test" duration-ms="121467" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:41 IST">
       <class name="com.Flush.Tests.DiceGameTestcases">
-        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="Initialization" is-config="true" duration-ms="54360" started-at="2022-04-07T10:47:40 IST" finished-at="2022-04-07T10:48:35 IST">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="Initialization" is-config="true" duration-ms="101413" started-at="2022-04-07T11:32:40 IST" finished-at="2022-04-07T11:34:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method status="PASS" signature="DiceGameDoubleBetAmount()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="DiceGameDoubleBetAmount" duration-ms="38936" started-at="2022-04-07T10:48:35 IST" finished-at="2022-04-07T10:49:14 IST">
+        <test-method status="PASS" signature="MAximumErrorMessageChecking()[pri:1, instance:com.Flush.Tests.DiceGameTestcases@27f723]" name="MAximumErrorMessageChecking" duration-ms="19723" started-at="2022-04-07T11:34:21 IST" finished-at="2022-04-07T11:34:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DiceGameDoubleBetAmount -->
+        </test-method> <!-- MAximumErrorMessageChecking -->
       </class> <!-- com.Flush.Tests.DiceGameTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
